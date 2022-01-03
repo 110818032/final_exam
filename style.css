@@ -1,0 +1,47 @@
+body{
+margin: 0;
+padding: 0;
+}
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    color: blue;
+    font-size: 33px;
+    font-weight: 700;
+    padding: 20px;
+}
+.word{
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left: 22px;
+}
+.orange{
+position: absolute;
+width: 120px;
+height: 120px;
+margin-top:20px;
+margin-left: 20px;
+z-index: 2;
+}
+.broccoli{
+    position: absolute;
+    width: 120px;
+height: 120px;
+margin-left: 145px;
+margin-top:20px;
+z-index: 2;
+}
+.red{
+margin-left: 20px;
+margin-top: 20px;
+    border:60px solid red;
+    position: absolute ;
+    border-radius:20px 20px 20px 20px;
+    z-index: 1;
+}
+.yellow{
+    margin-left: 145px;
+    margin-top: 20px;
+        border:60px solid yellow;
+        position: absolute ;
+        border-radius:20px 20px 20px 20px;
+        z-index: 1;
+    }
